@@ -1,0 +1,35 @@
+.event-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.event-list {
+  display: grid;
+  grid-template-columns: auto 2px auto;
+  align-items: center;
+  row-gap: 32px; /* Увеличенный вертикальный отступ */
+  column-gap: 32px; /* Увеличенный горизонтальный отступ */
+}
+
+.event-item {
+  display: contents;
+  font-weight: 600;
+}
+
+.event-icon {
+  justify-self: end;
+}
+
+.event-text {
+  justify-self: start;
+}
+
+.event-item::after {
+  content: '';
+  width: 2px;
+  background-color: gray;
+  height: 100%;
+  grid-column: 2;
+  grid-row: 1 / span 3;
+}
