@@ -10,9 +10,6 @@ export const Attention = () => {
   return (
     <div className="attention">
       <div className="attention__text_secondary" data-aos="fade-down" data-aos-duration="1000">
-        Рубрика: "Подарочки"
-      </div>
-      <div className="attention__text_primary" data-aos="fade-down" data-aos-duration="1000">
         Чего хочет именинник?
       </div>
       <video className="attention__video" src={funnyVideo} controls playsInline />

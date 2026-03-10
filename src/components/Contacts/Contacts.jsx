@@ -25,10 +25,6 @@ export const Contacts = () => {
       <br />
       <div className="contacts__content">
         <div className="contacts__content__item">
-          <div className="content__item__title">
-            <span>Дарья</span>
-          </div>
-          <div className="content__item__desc"></div>
           <div className="content__item__contact">
             <span className="contact__phone" onClick={e => copyNumber(e)}>
               8 988 492 50 24
@@ -56,7 +52,7 @@ export const Contacts = () => {
         </div>
       </div>
       <div className="contacts__warning">
-        <span>Просьба, чтобы все прошло идеально, пожалуйста, заполните до 15.06.2025 анкету снизу</span>
+        <span>Просьба сообщить о своем присутствии на мероприятии до 01.06.2026</span>
       </div>
     </div>
   );

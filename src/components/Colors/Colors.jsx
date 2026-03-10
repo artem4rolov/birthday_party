@@ -10,7 +10,7 @@ export const Colors = () => {
         Дресс-код{' '}
       </div>
       <div className="colors__text_primary" data-aos="fade-down" data-aos-duration="1000">
-        У нас нет строгого дресс-кода, но мы будем рады, если вы придержитесь концепции Black & White
+        У нас нет строгого дресс-кода, но мы будем рады, если вы придержитесь концепции <br /> Black & White
       </div>
       <img
         src="https://i.ibb.co/RGzZMs6V/colors-palitre.jpg"
