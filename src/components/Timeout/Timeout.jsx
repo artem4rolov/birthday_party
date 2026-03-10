@@ -50,7 +50,8 @@ export const Timeout = () => {
 
     timerComponents.push(
       <span className={interval}>
-        {timeLeft[interval] < 1 ? 0 : timeLeft[interval]} <p className="timer-subtext">{rename(interval)}</p>{' '}
+        {timeLeft[interval] < 1 ? 0 : timeLeft[interval]}{' '}
+        <p className="timer-subtext">{rename(interval)}</p>{' '}
       </span>
     );
   });
@@ -60,7 +61,7 @@ export const Timeout = () => {
   function calculateRemainingTime() {
     const year = new Date().getFullYear();
 
-    var eventDate = `07/25/${year}`; // MM-DD-YYYY (31st Dec)
+    var eventDate = `06/20/${year}`; // MM-DD-YYYY (31st Dec)
 
     /* difference holds the time difference in
      * milliseconds of the event date from the
@@ -82,7 +83,7 @@ export const Timeout = () => {
   return (
     <>
       <div className="timerComponent">
-        <div className="eventName">До свадьбы осталось:</div>
+        <div className="eventName">До фан-встречи осталось:</div>
         <div className="timer">{timerComponents.length ? timerComponents : <span>00:00:00</span>}</div>
       </div>
     </>

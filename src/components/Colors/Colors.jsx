@@ -7,10 +7,13 @@ export const Colors = () => {
   return (
     <div className="colors">
       <div className="colors__text_secondary" data-aos="fade-down" data-aos-duration="1000">
-        Будем рады если вы поддержите цветовую гамму нашей свадьбы: Черный, белый, темно серый, светло серый!
+        Дресс-код{' '}
+      </div>
+      <div className="colors__text_primary" data-aos="fade-down" data-aos-duration="1000">
+        У нас нет строгого дресс-кода, но мы будем рады, если вы придержитесь концепции Black & White
       </div>
       <img
-        src="https://i.ibb.co/pBq4KY61/colors.jpg"
+        src="https://i.ibb.co/RGzZMs6V/colors-palitre.jpg"
         className="colors__cover"
         alt="colors cover"
         data-aos="fade-down"

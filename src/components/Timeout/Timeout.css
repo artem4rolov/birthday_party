@@ -1,7 +1,8 @@
 .timerComponent {
   color: white;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
-    url('https://i.ibb.co/MDHg41cZ/timer-min.jpg') center left/cover no-repeat;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+    url('https://i.ibb.co/G42w8CYh/timer-cover.jpg') center no-repeat;
   width: 100vw;
   height: 100vh;
 

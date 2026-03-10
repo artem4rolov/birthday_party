@@ -16,8 +16,8 @@
   max-width: 800px;
   font-size: 20px;
   font-weight: lighter;
-  font-style: italic;
   text-align: center;
+  color: #616161;
 }
 /* основной текст */
 .attention__text_primary {
@@ -26,4 +26,47 @@
   font-size: 28px;
   font-weight: lighter;
   text-align: center;
+}
+
+.attention__video {
+  width: 100%;
+  max-width: 430px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.attention__accordion_header {
+  margin-top: 12px;
+  padding: 10px 14px;
+  max-width: 430px;
+  width: 100%;
+  border: 1px solid #616161;
+  background: transparent;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #616161;
+}
+
+.attention__accordion_header--open {
+  background: transparent;
+}
+
+.attention__accordion_icon {
+  margin-left: 10px;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.attention__accordion_body {
+  border-bottom: 1px solid #000;
+  border-top: none;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
 }

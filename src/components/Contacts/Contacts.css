@@ -12,12 +12,13 @@
   text-align: center;
 }
 
-.contacts__title {
-  width: 100%;
-  margin-bottom: 20px;
+.contacts__text_primary {
+  width: 95%;
 
-  font-size: 24px;
-  color: #000;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  color: #616161;
 }
 
 .contacts__content {
