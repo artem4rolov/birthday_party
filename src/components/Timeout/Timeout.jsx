@@ -21,12 +21,6 @@ export const Timeout = () => {
     }
   }
 
-  function addZero(num) {
-    if (num === 0) {
-      return `0${num}`;
-    } else return num;
-  }
-
   // to update the time every 1 second
   useEffect(() => {
     const timer = setTimeout(() => {

@@ -9,7 +9,6 @@ import {
   Timeout,
   GalleryFirst,
   Colors,
-  ContactUsForm,
 } from './components/index';
 
 import AOS from 'aos';
@@ -31,7 +30,6 @@ function App() {
       <Attention />
       <Timeout />
       <Contacts />
-      {/* <ContactUsForm /> */}
     </div>
   );
 }
