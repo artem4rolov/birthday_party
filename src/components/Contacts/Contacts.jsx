@@ -20,7 +20,7 @@ export const Contacts = () => {
   return (
     <div className="contacts">
       <div className="contacts__text_primary" data-aos="fade-down" data-aos-duration="1000">
-        Если у вас есть вопросы, предложения, сюрпирзы для Артемки - напишите Дашулику
+        Если у вас есть вопросы, предложения, сюрпризы для Артемки - напишите Дашулику
       </div>
       <br />
       <div className="contacts__content">
